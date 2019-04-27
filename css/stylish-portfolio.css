@@ -93,11 +93,13 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
-  background-position: center center;
+
+
+  /* background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url();
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(); */
+  /* background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .masthead h1 {
@@ -374,4 +376,22 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+#pill-button {
+
+   color: white;
+   background: linear-gradient(to top right, #ffc09f 18%, #efa2b8 100%);
+   opacity:0.5;
+   border: none;
+   padding: 10px 20px;
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 900;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
 }
